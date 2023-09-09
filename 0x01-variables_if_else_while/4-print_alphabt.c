@@ -11,6 +11,10 @@ int main(void)
 	for (i = 97 ; i <= 100 ; i++)
 		putchar(i);
 	for (i = 102 ; i <= 122 ; i++)
+	{
+		if (i == 113)
+			break;
 		putchar(i);
+	}
 	return (0);
 }
